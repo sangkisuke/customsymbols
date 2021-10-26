@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="OSIsoft.AF.xsd" SchemaVersion="2.0" SoftwareVersion="2.10.1.8731" ExportMode="NoUniqueID" PISystem="VCENPGTDPIAPP01" Database="Data" Description="" Created="2021-10-26T01:25:39.9905795Z" id="100482dd-31b7-11ec-be41-bca8a6dc5b3a" ParentKey="b8294b24-2c95-11ec-812e-005056825663" ExportedObject="S-7120" ExportedType="AFElement" Identity="Element" PIPersist="186 {9895150E-085D-4fcb-A16D-5EF5D2527196} 2\{5a06e086-d0dd-451b-aa94-e20b10403330}\Elements[{100482dd-31b7-11ec-be41-bca8a6dc5b3a}]*VCENPGTDPIAPP01\Data\Performance Curve Baronia\S-7120">
+  <AFElement>
+    <Name>S-7120</Name>
+    <Description />
+    <Template>Separator Performance Curve 2</Template>
+    <AFAttribute>
+      <Name>Calc Gas Flow Area</Name>
+      <AFAttributeCategoryRef>Calculated</AFAttributeCategoryRef>
+    </AFAttribute>
+    <AFAttribute>
+      <Name>Corrected Ks pressure if MWD</Name>
+      <AFAttributeCategoryRef>Calculated</AFAttributeCategoryRef>
+    </AFAttribute>
+    <AFAttribute>
+      <Name>CSA</Name>
+      <AFAttributeCategoryRef>Calculated</AFAttributeCategoryRef>
+    </AFAttribute>
+    <AFAttribute>
+      <Name>Density Flow Area</Name>
+      <AFAttributeCategoryRef>Calculated</AFAttributeCategoryRef>
+    </AFAttribute>
+    <AFAttribute>
+      <Name>Gas</Name>
+      <DataReference>PI Point</DataReference>
+      <ConfigString>\\PCSBSKOPI?3c4c733f-703f-4391-ab10-efc10e2af611\PC.SKO.BRNA-PG-B.DCS.V1600_BNGB:FYY_1601_N.RO01?96547</ConfigString>
+      <AFAttributeCategoryRef>Operating Value</AFAttributeCategoryRef>
+    </AFAttribute>
+    <AFAttribute>
+      <Name>Input Demisting Device</Name>
+      <AFAttributeCategoryRef>User Input</AFAttributeCategoryRef>
+    </AFAttribute>
+    <AFAttribute>
+      <Name>Input Direction</Name>
+      <AFAttributeCategoryRef>User Input</AFAttributeCategoryRef>
+    </AFAttribute>
+    <AFAttribute>
+      <Name>Input Gas MW</Name>
+      <AFAttributeCategoryRef>User Input</AFAttributeCategoryRef>
+    </AFAttribute>
+    <AFAttribute>
+      <Name>Input Heavier Liquid Viscosity</Name>
+      <AFAttributeCategoryRef>User Input</AFAttributeCategoryRef>
+    </AFAttribute>
+    <AFAttribute>
+      <Name>Input Length Height TT</Name>
+      <AFAttributeCategoryRef>User Input</AFAttributeCategoryRef>
+    </AFAttribute>
+    <AFAttribute>
+      <Name>Input Length of Compressor</Name>
+      <AFAttributeCategoryRef>User Input</AFAttributeCategoryRef>
+    </AFAttribute>
+    <AFAttribute>
+      <Name>Input Lighter Liquid Density</Name>
+      <AFAttributeCategoryRef>User Input</AFAttributeCategoryRef>
+    </AFAttribute>
+    <AFAttribute>
+      <Name>Input Lighter Liquid Viscosity</Name>
+      <AFAttributeCategoryRef>User Input</AFAttributeCategoryRef>
+    </AFAttribute>
+    <AFAttribute>
+      <Name>Input Nozzle Gas Outlet</Name>
+      <AFAttributeCategoryRef>User Input</AFAttributeCategoryRef>
+    </AFAttribute>
+    <AFAttribute>
+      <Name>Input Nozzle Liq Outlet</Name>
+      <AFAttributeCategoryRef>User Input</AFAttributeCategoryRef>
+    </AFAttribute>
+    <AFAttribute>
+      <Name>Input pgvg2</Name>
+      <AFAttributeCategoryRef>User Input</AFAttributeCategoryRef>
+    </AFAttribute>
+    <AFAttribute>
+      <Name>Input Separator Type</Name>
+      <AFAttributeCategoryRef>User Input</AFAttributeCategoryRef>
+    </AFAttribute>
+    <AFAttribute>
+      <Name>Input Vessel ID</Name>
+      <AFAttributeCategoryRef>User Input</AFAttributeCategoryRef>
+    </AFAttribute>
+    <AFAttribute>
+      <Name>Input Watercut</Name>
+      <AFAttributeCategoryRef>User Input</AFAttributeCategoryRef>
+    </AFAttribute>
+    <AFAttribute>
+      <Name>pg</Name>
+      <AFAttributeCategoryRef>Calculated</AFAttributeCategoryRef>
+    </AFAttribute>
+    <AFAttribute>
+      <Name>pl</Name>
+      <AFAttributeCategoryRef>Calculated</AFAttributeCategoryRef>
+    </AFAttribute>
+    <AFAttribute>
+      <Name>pmv2m</Name>
+      <AFAttributeCategoryRef>Calculated</AFAttributeCategoryRef>
+    </AFAttribute>
+    <AFAttribute>
+      <Name>Pressure</Name>
+      <DataReference>PI Point</DataReference>
+      <ConfigString>\\PCSBSKOPI?3c4c733f-703f-4391-ab10-efc10e2af611\PC.SKO.BRNA-PG-B.DCS.V1600_BNGB:PI_1601.PNT?24592</ConfigString>
+      <AFAttributeCategoryRef>Operating Value</AFAttributeCategoryRef>
+    </AFAttribute>
+    <AFAttribute>
+      <Name>Relief Valve</Name>
+      <AFAttributeCategoryRef>Calculated</AFAttributeCategoryRef>
+    </AFAttribute>
+  </AFElement>
+</AF>
